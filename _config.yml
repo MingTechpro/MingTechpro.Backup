@@ -95,7 +95,7 @@ deploy:
   type: git
   repo: https://github.com/MingTechpro/MingTechpro.github.io
   branch: main
-  message: "更新 Blog 内容 @ {{ now(' %Y/%m/%d %H:%M') }}"
+  message: "更新 Blog 内容 #{{ now('DD HH:mm:ss') }}"
 
 # 代码程序图设置
 kramed:
