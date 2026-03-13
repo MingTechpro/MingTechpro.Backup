@@ -1,8 +1,13 @@
+# 忽略系统文件
 .DS_Store
 Thumbs.db
-db.json
-*.log
-node_modules/
-.deploy*/
+# 忽略编译后的静态文件
 public/
+.deploy*/
+# 忽略依赖目录（无需备份，恢复时需重新安装）
+node_modules/
+# 忽略日志文件
+*.log
+# 忽略数据库文件（自动生成）
+db.json
 _multiconfig.yml

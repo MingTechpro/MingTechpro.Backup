@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # 网站
-title: MingTechPro # 网站标题
-subtitle: "This is MingTechPro's personal blog." # 网站副标题
+title: MingTechpro # 网站标题
+subtitle: "This is MingTechpro's personal blog." # 网站副标题
 description: "人性的背后是白云苍狗，愿你我都是生活的高手" # 网站描述
 keywords: # 网站的关键词,支持多个关键词
-author: MingTechPro # 您的名字
+author: MingTechpro # 您的名字
 language: zh-CN # 语言：default(en)，zh-CN (简体中文)，zh-TW (繁体中文)
 timezone: "Asia/Shanghai" # 设置网站时区，Hexo 默认使用您电脑的时区（查询时区：https://en.wikipedia.org/wiki/List_of_tz_database_time_zones）
 
@@ -89,10 +89,13 @@ pagination_dir: page # 分页目录
 ## Themes: https://hexo.io/themes/
 theme: butterfly # 设置当前主题名称。值为false时禁用主题
 
-# Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+# 部署设置
+## 文档: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ""
+  type: git
+  repo: https://github.com/MingTechpro/MingTechpro.github.io
+  branch: main
+  message: "更新 Blog 内容 @ {{ now(' %Y/%m/%d %H:%M') }}"
 
 # 代码程序图设置
 kramed:
@@ -113,15 +116,15 @@ search:
 
 # 短链接设置
 abbrlink:
-  alg: crc32      #支持 crc16(默认) 或者 crc32
-  rep: hex        #支持 dec(默认) 或者 hex
-  drafts: false   #(true)流程草搞,(false)不处理草稿. false(默认) 
+  alg: crc32 #支持 crc16(默认) 或者 crc32
+  rep: hex #支持 dec(默认) 或者 hex
+  drafts: false #(true)流程草搞,(false)不处理草稿. false(默认)
   # 从目录树生成类别
   # depth: the max_depth of directory-tree you want to generate, should > 0
   auto_category:
-     enable: true  #true(默认)
-     depth:        #3(默认)
-     over_write: false 
+    enable: true #true(默认)
+    depth: #3(默认)
+    over_write: false
   auto_title: true #启用自动标题，可以按路径自动填充标题
   auto_date: false #启用自动日期，它可以自动填写日期的时间今天
   force: false #在这种模式下，插件将忽略缓存并计算每个帖子的abbrlink，即使它已经有了abbrlink。这只更新abbrlink而不是其他前端变量

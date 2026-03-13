@@ -1,9 +1,9 @@
 ---
 layout: post
-date: '2023-12-14/16:45:20'
+date: "2023-12-14/16:45:20"
 title: Markdown 进阶写作指南
 cover: >-
-  https://cdn.jsdelivr.net/gh/MingTechPro/drawing-bed/post-img_url/202404272114346.jpg
+  https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/wallpaper/202404272114346.jpg
 categories:
   - Markdown
 tags:
@@ -31,8 +31,7 @@ abbrlink: 2b5beace
 - 语法符号，前面加反斜线\即可显示符号本身，例如：
 
 ```markdown
-\\ 反斜杠
-\* 星号
+\\ 反斜杠 \* 星号
 \_ 下划线
 \{\} 括号
 \# 井号
@@ -43,8 +42,7 @@ abbrlink: 2b5beace
 
 演示：
 
-\\ 反斜杠
-\* 星号
+\\ 反斜杠 \* 星号
 \_ 下划线
 \{\} 括号
 \# 井号
@@ -84,9 +82,9 @@ abbrlink: 2b5beace
 - 通过上面查询到的颜色编码 `<font color="写入到这里" size="写入数值改变字体大小"></font>`
 
 ```html
-<font color=LightSkyBlue size=72>亮天蓝色</font>
-<font color=SpringGreen size=42>春绿色</font>
-<font color=Red size=6>纯红色</font>
+<font color="LightSkyBlue" size="72">亮天蓝色</font>
+<font color="SpringGreen" size="42">春绿色</font>
+<font color="Red" size="6">纯红色</font>
 ```
 
 演示：
@@ -105,9 +103,21 @@ Markdown本身不支持背景色设置，需要采用内置html的方式实现�
 - 通过上面查询到的颜色编码 `<table><tr><td bgcolor="写入到这里"></td></tr></table>`
 
 ```html
-<table><tr><td bgcolor=LightSkyBlue>背景色是：亮天蓝色</td></tr></table>
-<table><tr><td bgcolor=SpringGreen>背景色是：春绿色</td></tr></table>
-<table><tr><td bgcolor=Red>背景色是：纯红色</td></tr></table>
+<table>
+  <tr>
+    <td bgcolor="LightSkyBlue">背景色是：亮天蓝色</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td bgcolor="SpringGreen">背景色是：春绿色</td>
+  </tr>
+</table>
+<table>
+  <tr>
+    <td bgcolor="Red">背景色是：纯红色</td>
+  </tr>
+</table>
 ```
 
 演示：
@@ -178,59 +188,59 @@ $$
 
 例如：
 
-````markdown
+```markdown
 {% mermaid %}
 flowchart LR
 A[方形] -->B(圆角)
-    B --> C{条件a}
-    C -->|a=1| D[结果1]
-    C -->|a=2| E[结果2]
-    F[横向流程图]
+B --> C{条件a}
+C -->|a=1| D[结果1]
+C -->|a=2| E[结果2]
+F[横向流程图]
 {% endmermaid %}
-````
+```
 
 演示：
 
 {% mermaid %}
 flowchart LR
 A[方形] -->B(圆角)
-    B --> C{条件a}
-    C -->|a=1| D[结果1]
-    C -->|a=2| E[结果2]
-    F[横向流程图]
+B --> C{条件a}
+C -->|a=1| D[结果1]
+C -->|a=2| E[结果2]
+F[横向流程图]
 {% endmermaid %}
 
 ### 竖向流程图
 
 例如：
 
-````markdown
+```markdown
 {% mermaid %}
 flowchart TD
 A[方形] --> B(圆角)
-    B --> C{条件a}
-    C --> |a=1| D[结果1]
-    C --> |a=2| E[结果2]
-    F[竖向流程图]
+B --> C{条件a}
+C --> |a=1| D[结果1]
+C --> |a=2| E[结果2]
+F[竖向流程图]
 {% endmermaid %}
-````
+```
 
 演示：
 
 {% mermaid %}
 flowchart TD
 A[方形] --> B(圆角)
-    B --> C{条件a}
-    C --> |a=1| D[结果1]
-    C --> |a=2| E[结果2]
-    F[竖向流程图]
+B --> C{条件a}
+C --> |a=1| D[结果1]
+C --> |a=2| E[结果2]
+F[竖向流程图]
 {% endmermaid %}
 
 ### UML时序图
 
 例如：
 
-````markdown
+```markdown
 {% mermaid %}
 sequenceDiagram
 对象A->对象B: 对象B你好吗?（请求）
@@ -239,7 +249,7 @@ Note left of 对象A: 对象A的描述(提示)
 对象B-->对象A: 我很好(响应)
 对象A->对象B: 你真的好吗？
 {% endmermaid %}
-````
+```
 
 演示：
 
@@ -256,7 +266,7 @@ Note left of 对象A: 对象A的描述(提示)
 
 例如：
 
-````markdown
+```markdown
 {% mermaid %}
 sequenceDiagram
 Title: 标题：复杂使用
@@ -271,7 +281,7 @@ Note over 小三,对象B: 我们是朋友
 participant C
 Note right of C: 没人陪我玩
 {% endmermaid %}
-````
+```
 
 演示：
 
@@ -294,66 +304,66 @@ Note right of C: 没人陪我玩
 
 例如：
 
-````markdown
+```markdown
 {% mermaid %}
 %% 语法示例
 gantt
-    section Section
-    dateFormat  YYYY-MM-DD
-    title 软件开发甘特图
-    section 设计
-    需求  : done,    des1, 2014-01-06,2014-01-08
-    原型  : active,  des2, 2014-01-09, 3d
-    UI设计  : des3, after des2, 5d
-    未来任务  : des4, after des3, 5d
-    section 开发
-    学习准备理解需求  : crit, done, 2014-01-06,24h
-    设计框架  : crit, done, after des2, 2d
-    开发  : crit, active, 3d
-    未来任务  : crit, 5d
-    耍  : 2d
-    section 测试
-    功能测试  : active, a1, after des3, 3d
-    压力测试  : after a1, 20h
-    测试报告  : 48h
+section Section
+dateFormat YYYY-MM-DD
+title 软件开发甘特图
+section 设计
+需求 : done, des1, 2014-01-06,2014-01-08
+原型 : active, des2, 2014-01-09, 3d
+UI设计 : des3, after des2, 5d
+未来任务 : des4, after des3, 5d
+section 开发
+学习准备理解需求 : crit, done, 2014-01-06,24h
+设计框架 : crit, done, after des2, 2d
+开发 : crit, active, 3d
+未来任务 : crit, 5d
+耍 : 2d
+section 测试
+功能测试 : active, a1, after des3, 3d
+压力测试 : after a1, 20h
+测试报告 : 48h
 {% endmermaid %}
-````
+```
 
 演示：
 
 {% mermaid %}
 gantt
-    section Section
-    dateFormat  YYYY-MM-DD
-    title 软件开发甘特图
-    section 设计
-    需求  : done,    des1, 2014-01-06,2014-01-08
-    原型  : active,  des2, 2014-01-09, 3d
-    UI设计  : des3, after des2, 5d
-    未来任务  : des4, after des3, 5d
-    section 开发
-    学习准备理解需求  : crit, done, 2014-01-06,24h
-    设计框架  : crit, done, after des2, 2d
-    开发  : crit, active, 3d
-    未来任务  : crit, 5d
-    耍  : 2d
-    section 测试
-    功能测试  : active, a1, after des3, 3d
-    压力测试  : after a1, 20h
-    测试报告  : 48h
+section Section
+dateFormat YYYY-MM-DD
+title 软件开发甘特图
+section 设计
+需求 : done, des1, 2014-01-06,2014-01-08
+原型 : active, des2, 2014-01-09, 3d
+UI设计 : des3, after des2, 5d
+未来任务 : des4, after des3, 5d
+section 开发
+学习准备理解需求 : crit, done, 2014-01-06,24h
+设计框架 : crit, done, after des2, 2d
+开发 : crit, active, 3d
+未来任务 : crit, 5d
+耍 : 2d
+section 测试
+功能测试 : active, a1, after des3, 3d
+压力测试 : after a1, 20h
+测试报告 : 48h
 {% endmermaid %}
 
 ### 类别图
 
 例如：
 
-````markdown
+```markdown
 {% mermaid %}
 classDiagram
 Class01 <|-- AveryLongClass : Cool
 <<Interface>> Class01
 Class09 --> C2 : 我在哪里?
-Class09 --* C3
+Class09 --\* C3
 Class09 --|> Class07
 Class07 : equals()
 Class07 : Object[] 元素数据
@@ -361,12 +371,12 @@ Class01 : size()
 Class01 : int 黑猩猩
 Class01 : int 大猩猩
 class Class10 {
-  <<service>>
-  int id
-  size()
+<<service>>
+int id
+size()
 }
 {% endmermaid %}
-````
+```
 
 演示：
 
@@ -375,7 +385,7 @@ classDiagram
 Class01 <|-- AveryLongClass : Cool
 <<Interface>> Class01
 Class09 --> C2 : 我在哪里?
-Class09 --* C3
+Class09 --\* C3
 Class09 --|> Class07
 Class07 : equals()
 Class07 : Object[] 元素数据
@@ -383,9 +393,9 @@ Class01 : size()
 Class01 : int 黑猩猩
 Class01 : int 大猩猩
 class Class10 {
-  <<service>>
-  int id
-  size()
+<<service>>
+int id
+size()
 }
 {% endmermaid %}
 
@@ -393,7 +403,7 @@ class Class10 {
 
 例如：
 
-````markdown
+```markdown
 {% mermaid %}
 stateDiagram-v2
 [*] --> Still
@@ -403,7 +413,7 @@ Moving --> Still
 Moving --> Crash
 Crash --> [*]
 {% endmermaid %}
-````
+```
 
 演示：
 
@@ -421,14 +431,14 @@ Crash --> [*]
 
 例如：
 
-````markdown
+```markdown
 {% mermaid %}
 pie
 "狗" : 386
 "猫" : 85
 "其他" : 15
 {% endmermaid %}
-````
+```
 
 演示：
 
@@ -443,39 +453,39 @@ pie
 
 例如：
 
-````markdown
+```markdown
 {% mermaid %}
-  journey
-    title 我的工作日
-    section 上班
-      泡茶: 5: Me
-      上楼: 3: Me
-      工作: 1: Me, Cat
-    section 回家
-      下楼: 5: Me
-      坐下: 3: Me
+journey
+title 我的工作日
+section 上班
+泡茶: 5: Me
+上楼: 3: Me
+工作: 1: Me, Cat
+section 回家
+下楼: 5: Me
+坐下: 3: Me
 {% endmermaid %}
-````
+```
 
 演示：
 
 {% mermaid %}
-  journey
-    title 我的工作日
-    section 上班
-      泡茶: 5: Me
-      上楼: 3: Me
-      工作: 1: Me, Cat
-    section 回家
-      下楼: 5: Me
-      坐下: 3: Me
+journey
+title 我的工作日
+section 上班
+泡茶: 5: Me
+上楼: 3: Me
+工作: 1: Me, Cat
+section 回家
+下楼: 5: Me
+坐下: 3: Me
 {% endmermaid %}
 
 ### C4 图
 
 例如：
 
-````markdown
+```markdown
 {% mermaid %}
 C4Context
 title System Context diagram for Internet Banking System
@@ -489,20 +499,20 @@ Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with pers
 
 Enterprise_Boundary(b1, "BankBoundary") {
 
-  SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
 
-  System_Boundary(b2, "BankBoundary2") {
-    System(SystemA, "Banking System A")
-    System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts.")
-  }
+System_Boundary(b2, "BankBoundary2") {
+System(SystemA, "Banking System A")
+System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts.")
+}
 
-  System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
-  SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
+System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
 
-  Boundary(b3, "BankBoundary3", "boundary") {
-    SystemQueue(SystemF, "Banking System F Queue", "A system of the bank, with personal bank accounts.")
-    SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
-  }
+Boundary(b3, "BankBoundary3", "boundary") {
+SystemQueue(SystemF, "Banking System F Queue", "A system of the bank, with personal bank accounts.")
+SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
+}
 }
 
 BiRel(customerA, SystemAA, "Uses")
@@ -510,7 +520,7 @@ BiRel(SystemAA, SystemE, "Uses")
 Rel(SystemAA, SystemC, "Sends e-mails", "SMTP")
 Rel(SystemC, customerA, "Sends e-mails to")
 {% endmermaid %}
-````
+```
 
 演示：
 
@@ -527,20 +537,20 @@ Person(customerD, "Banking Customer D", "A customer of the bank, <br/> with pers
 
 Enterprise_Boundary(b1, "BankBoundary") {
 
-  SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+SystemDb_Ext(SystemE, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
 
-  System_Boundary(b2, "BankBoundary2") {
-    System(SystemA, "Banking System A")
-    System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts.")
-  }
+System_Boundary(b2, "BankBoundary2") {
+System(SystemA, "Banking System A")
+System(SystemB, "Banking System B", "A system of the bank, with personal bank accounts.")
+}
 
-  System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
-  SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
+System_Ext(SystemC, "E-mail system", "The internal Microsoft Exchange e-mail system.")
+SystemDb(SystemD, "Banking System D Database", "A system of the bank, with personal bank accounts.")
 
-  Boundary(b3, "BankBoundary3", "boundary") {
-    SystemQueue(SystemF, "Banking System F Queue", "A system of the bank, with personal bank accounts.")
-    SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
-  }
+Boundary(b3, "BankBoundary3", "boundary") {
+SystemQueue(SystemF, "Banking System F Queue", "A system of the bank, with personal bank accounts.")
+SystemQueue_Ext(SystemG, "Banking System G Queue", "A system of the bank, with personal bank accounts.")
+}
 }
 
 BiRel(customerA, SystemAA, "Uses")
@@ -567,7 +577,7 @@ Rel(SystemC, customerA, "Sends e-mails to")
 
 <br>
 
-------
+---
 
 参考文章：
 

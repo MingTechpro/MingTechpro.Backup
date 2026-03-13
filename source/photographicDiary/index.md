@@ -8,5 +8,5 @@ date: 2024-05-11 15:40:45
 ### 探寻手工工艺之境，与大师手工艺人同行。每一次的画笔挥动，每一个作品，都在演绎着故事
 
 {% gallery %}
-![](https://cdn.jsdelivr.net/gh/MingTechPro/drawing-bed/photographic-diary_url/202405111519953.jpg)
+![](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/photographic-diary_url/202405111519953.jpg)
 {% endgallery %}
