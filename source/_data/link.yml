@@ -1,0 +1,82 @@
+# 链接设置
+#- class_name: EIN 个人项目
+#  class_desc: 项目稳定性？不存在的٩(๑•̀ω•́๑)۶
+#  link_list:
+#    - name: 博客名
+#      link: 博客地址
+#      avatar: 博客头像
+#      descr: 博客描述
+
+- class_name: EIN 个人项目
+  class_desc: 项目稳定性？不存在的٩(๑•̀ω•́๑)۶
+  link_list:
+    - name: ChenPeiming.github.io
+      link: https://github.com/MingTechPro/ChenPeiming52001.github.io/
+      avatar: https://cdn.jsdelivr.net/gh/MingTechPro/drawing-bed/avatar-bg_url/202405160046279.svg
+      descr: Power by Yummy Jekyll & Revised by Chen Peiming.
+
+    - name: js-api-script-toolbox
+      link: https://github.com/MingTechPro/js-api-script-toolbox
+      avatar: https://cdn.jsdelivr.net/gh/MingTechPro/drawing-bed/avatar-bg_url/202405142242021.svg
+      descr: JavaScript-api-脚本 工具库
+
+- class_name: DOS 私人服务
+  class_descr: 网络服务推荐
+  link_list:
+    - name: GitHub
+      link: https://github.com/
+      avatar: https://cdn.jsdelivr.net/gh/MingTechPro/drawing-bed/avatar-bg_url/202405060150773.png
+      descr: 全球最大的代码仓库
+
+    - name: Cloudflare
+      link: https://dash.cloudflare.com/
+      avatar: https://dash.cloudflare.com/apple-touch-icon-144x144.png
+      descr: 免费域名托管平台
+
+    - name: jsDelivr
+      link: https://www.jsdelivr.com/
+      avatar: https://www.jsdelivr.com/icons/favicon.svg
+      descr: 一个免费开源文件 CDN（内容分发网络）服务商
+
+    - name: Leancloud
+      link: https://console.leancloud.cn/
+      avatar: https://console.leancloud.cn/favicon.ico
+      descr: 评论系统的后端数据库
+
+    - name: Vercel
+      link: https://vercel.com/
+      avatar: https://assets.vercel.com/image/upload/front/favicon/vercel/180x180.png
+      descr: 一个网站托管平台，提供高效创建和部署Web应用程序的服务商
+
+- class_name: TROIS 友人帐
+  class_descr: 一群可可爱爱的小伙伴
+  link_list:
+    - name: Hexo
+      link: https://hexo.io/zh-cn/
+      avatar: https://hexo.io/icon/favicon-196x196.png
+      descr: ⼀个快速, 简洁且⾼效的博客框架
+
+    - name: Waline
+      link: https://waline.js.org/
+      avatar: https://cdn.jsdelivr.net/gh/MingTechPro/drawing-bed/avatar-bg_url/202405160042176.png
+      descr: 一款从 Valine 衍生的带后端评论系统
+
+    - name: ChenPeiming
+      link: https://chenpeiming.mingtechpro.top/
+      avatar: https://cdn.jsdelivr.net/gh/MingTechPro/drawing-bed/avatar-bg_url/202405160046279.svg
+      descr: ChenPeiming个人博客
+
+    - name: 小玉石的博客
+      link: //bl-sun.github.io/
+      avatar: //bl-sun.github.io/-/img/avatar.jpeg
+      descr: 爱生活，爱自己
+
+    - name: Rickyxrc
+      link: https://blog.rickyxrc.cc/
+      avatar: https://cdn.rickyxrc.cc/head/512.png
+      descr: 我是rickyxrc，为营造更好的网络环境和一个更好的明天而不懈奋斗。
+
+    - name: Zayden の树屋
+      link: https://lures2019.github.io/
+      avatar: https://cdn.jsdelivr.net/gh/lures2019/Typora_image_CDN/PicGo/202408291909996.png
+      descr: 路是走出来的，少说多做！
