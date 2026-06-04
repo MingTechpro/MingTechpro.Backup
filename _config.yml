@@ -5,7 +5,8 @@
 # 网站
 title: MingTechpro # 网站标题
 subtitle: "This is MingTechpro's personal blog." # 网站副标题
-description: "人性的背后是白云苍狗，愿你我都是生活的高手" # 网站描述
+description: "日落归山海，山海藏深意" # 网站描述
+# description: "人性的背后是白云苍狗，愿你我都是生活的高手"
 keywords: # 网站的关键词,支持多个关键词
 author: MingTechpro # 您的名字
 language: zh-CN # 语言：default(en)，zh-CN (简体中文)，zh-TW (繁体中文)
@@ -28,7 +29,7 @@ archive_dir: archives # 归档文件夹
 category_dir: categories # 分类文件夹
 code_dir: downloads/code # Include code 文件夹，source_dir 下的子目录
 i18n_dir: :lang # 国际化（i18n）文件夹
-skip_render: # 跳过指定文件的渲染。匹配到的文件将会被不做改动地复制到 public 目录中。您可使用 glob 表达式来匹配路径。
+skip_render: README.md # 跳过指定文件的渲染。匹配到的文件将会被不做改动地复制到 public 目录中。您可使用 glob 表达式来匹配路径。
 
 # 文章
 new_post_name: :title.md # 新文章的文件名称

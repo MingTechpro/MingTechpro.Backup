@@ -38,14 +38,14 @@ abbrlink: 94ec1eda
 
 - 将刚刚创建好的空仓库克隆到本地
 
-1.  复制仓库中的 HTTPS 地址
-    ![HTTPS](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202404292356309.png)
+1. 复制仓库中的 HTTPS 地址
+   ![HTTPS](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202404292356309.png)
 
-1.  在需要克隆的本地文件夹打开 Git 终端，粘贴的地址命令行并回车
-    ![Git](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202404292356802.png)
+1. 在需要克隆的本地文件夹打开 Git 终端，粘贴的地址命令行并回车
+   ![Git](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202404292356802.png)
 
-1.  等待克隆完毕
-    ![克隆完毕](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202404292356759.png)
+1. 等待克隆完毕
+   ![克隆完毕](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202404292356759.png)
 
 ## 克隆博客模板
 

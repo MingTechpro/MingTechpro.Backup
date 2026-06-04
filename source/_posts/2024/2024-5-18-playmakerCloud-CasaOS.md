@@ -1,7 +1,7 @@
 ---
 title: 玩客云的新生：CasaOS 系统刷机全记录
 date: 2024-05-18 20:05:59
-tags: 
+tags:
   - CasaOS
   - 玩客云
 categories: 玩客云
@@ -44,45 +44,49 @@ abbrlink: b065c228
 将下载好的 ArmBian 系统固件刷入玩客云，为后续刷机做好准备。具体步骤如下：
 
 - 打开已下载安装好的`“USB_Burning_Tool：晶晨烧录工具”`，并导入烧录包
-![导入烧录包](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182123269.png)
+  ![导入烧录包](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182123269.png)
+
 - 选择烧录配置，然后点击`“开始”`
-![烧录配置](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182124771.png)
-- 使用 USB 公对公线将主板和电脑连接起来<br>(USB 接口应选择靠近 HDMI 接口的那一边)
-![接入USB接口](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182126519.jpg)
-- 短接刷机触点，并给设备接通电源<br>(此时电脑会自动连接主板，进入刷机模式)
-{% note danger modern %}
-注：不同玩客云型号所对应的短接刷机触点是有所不同的，请参考以下图片进行短接操作。
-{% endnote %}
-`1.0`版本主板短接触点
-![1.0版本主板](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182133751.png)
-`1.3`版本主板短接触点
-![1.3版本主板](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182134262.png)
-![进入刷机模式](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182138509.png)
+  ![烧录配置](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182124771.png)
+- 使用 USB 公对公线将主板和电脑连接起来
+  (USB 接口应选择靠近 HDMI 接口的那一边)
+  ![接入USB接口](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182126519.jpg)
+
+- 短接刷机触点，并给设备接通电源
+  (此时电脑会自动连接主板，进入刷机模式)
+  {% note danger modern %}
+  注：不同玩客云型号所对应的短接刷机触点是有所不同的，请参考以下图片进行短接操作。
+  {% endnote %}
+  `1.0`版本主板短接触点
+  ![1.0版本主板](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182133751.png)
+  `1.3`版本主板短接触点
+  ![1.3版本主板](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182134262.png)
+  ![进入刷机模式](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182138509.png)
 
 - 等待刷机完成，注意先点击刷机软件中的`“停止”`，再移除 USB 连接线，然后重启设备
-![刷机完成](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182139217.png)
+  ![刷机完成](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182139217.png)
 
 ### 进入路由器后台查看设备IP
 
 - 查找名为`“onecloud”`的设备，并记下其 IP 地址
-![查找设备Ip](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182140430.png)
+  ![查找设备Ip](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182140430.png)
 
 ### 刷入 CasaOS
 
 在 ArmBian 底包的基础上刷入 CasaOS 系统。这一过程需要耐心等待，以确保刷机顺利完成。
 
 - 使用 MobaXterm 连接 ArmBian 系统
-![连接ArmBian系统](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182141970.png)
-![连接MobaXterm](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182142344.png)
+  ![连接ArmBian系统](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182141970.png)
+  ![连接MobaXterm](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182142344.png)
 
 - 登录 ArmBian 系统 - 账号：root 默认密码：1234
-![登录ArmBian系统](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182143434.png)
+  ![登录ArmBian系统](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182143434.png)
 
 - 修改登录密码并取消设置新账户
-![修改密码](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182143317.png)
+  ![修改密码](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182143317.png)
 
 - 检查系统时间及时区
-执行命令：
+  执行命令：
 
 ```bash
 date -R
@@ -91,7 +95,7 @@ date -R
 ![系统时间及时区](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182144795.png)
 
 - 如果系统时区不正确，需要修改时区
-执行命令：
+  执行命令：
 
 ```bash
 cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
@@ -101,7 +105,7 @@ cp /usr/share/zoneinfo/Asia/Shanghai  /etc/localtime
 ![修改时区](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182145663.png)
 
 - 修改软件安装源以提高安装成功率
-执行命令：
+  执行命令：
 
 ```bash
 nano /etc/apt/sources.list
@@ -130,8 +134,14 @@ deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security m
 
 ![编辑保存软件源](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182146289.png)
 
+{% note warning flat %}
+注：如果 CasaOS 安装失败，将下方源注释掉。
+“# deb <https://mirrors.tuna.tsinghua.edu.cn/debian/> bullseye-backports main contrib non-free”
+“# deb-src <https://mirrors.tuna.tsinghua.edu.cn/debian/> bullseye-backports main contrib non-free”
+{% endnote %}
+
 - 更新本地软件包列表并升级已安装的软件包
-执行命令：
+  执行命令：
 
 ```bash
 apt-get update && apt-get upgrade
@@ -140,7 +150,7 @@ apt-get update && apt-get upgrade
 ![更新本地软件包列表](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182147132.png)
 
 - 安装 CasaOS 系统
-执行命令：
+  执行命令：
 
 ```bash
 wget -qO- https://get.casaos.io | bash
@@ -154,7 +164,7 @@ wget -qO- https://get.casaos.io | bash
 执行命令：
 
 ```bash
-aptinstall docker.io
+apt install docker.io
 ```
 
 {% endnote %}
@@ -164,11 +174,11 @@ aptinstall docker.io
 安装 CasaOS 系统成功后，就可以登录到 CasaOS 系统界面，开始体验全新的系统。
 
 - 可以通过设备的 IP 地址访问 CasaOS
-![登录CasaOS界面](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182150996.png)
-![登录CasaOS界面](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182150607.png)
+  ![登录CasaOS界面](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182150996.png)
+  ![登录CasaOS界面](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182150607.png)
 
 - 注册 CasaOS 帐户
-![注册CasaOS帐户](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182151702.png)
+  ![注册CasaOS帐户](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182151702.png)
 
 - 添加适用于玩客云设备的软件库，链接如下：
 

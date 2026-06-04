@@ -4,8 +4,10 @@ date: 2024-04-30 01:15:56
 ---
 
 {% note info flat %}
+
 ## 目录
-[#Markdown](#Markdown) [#前端 web UI/框架](#前端-web-UI-框架) [#JavaScript](#JavaScript) [#CSS](#CSS) [#AI 工具](#AI-工具) [#images 图片](#images-图片)
+
+[#Markdown](#markdown) [#前端 web UI/框架](#前端-web-UI-框架) [#JavaScript](#javascript) [#CSS](#css) [#AI 工具](#AI-工具) [#images 图片](#images-图片)
 {% endnote %}
 
 ## Markdown
@@ -50,4 +52,3 @@ date: 2024-04-30 01:15:56
 - [Docsmall](https://docsmall.com/) - 免费在线图片压缩、GIF压缩工具、PDF压缩工具、PDF合并工具、PDF分割工具
 - [Bigjpg](https://bigjpg.com/) - AI人工智能图片无损放大
 - [沐享水印](https://mark.immers.icu/mi) - 给你拍摄图片添加水印边框
-

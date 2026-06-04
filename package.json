@@ -1,12 +1,13 @@
 {
   "name": "hexo-site",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server"
+    "运行服务": "hexo server",
+    "构建项目": "hexo generate",
+    "清理缓存": "hexo clean",
+    "部署项目": "hexo deploy",
+    "清理缓存部署项目": "hexo clean && hexo deploy --generate"
   },
   "hexo": {
     "version": "7.2.0"
