@@ -2,7 +2,7 @@
 title: 网心云OECT刷机指南：刷入 CasaOS 打造轻量家庭服务器
 date: 2026-03-28 22:13:21
 categories: 硬件折腾
-tags: [网心云, OECT, CasaOS, 家庭服务器]
+tags: [CasaOS, 网心云OECT, 家庭服务器]
 cover: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260607214043124.png
 description: 将吃灰的网心云 OECT 设备通过刷机改造，安装 CasaOS 系统，变废为宝打造轻量级家庭服务器。
 abbrlink: c4c3fa0f
