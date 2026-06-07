@@ -1,6 +1,6 @@
 {
   "name": "hexo-site",
-  "version": "2.0.0",
+  "version": "5.5.4",
   "private": true,
   "scripts": {
     "运行服务": "hexo server",

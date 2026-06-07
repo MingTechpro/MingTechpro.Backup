@@ -1,12 +1,8 @@
 ---
-title: 家庭网络架构升级指南：光猫桥接模式配置全流程
+title: 家庭网络改造：光猫改桥接 + 路由器拨号（含 IPv6 PD 验证）
 date: 2025-08-30 21:39:35
-tags:
-  - 移动光猫
-  - 路由器
-  - IPV6
-categories:
-  - 网络
+categories: 网络 & 自部署
+tags: [IPv6, 光猫, 路由器]
 cover: https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508310206347.png
 description: 运营商光猫普遍采用四合一设备架构（集调制解调器、路由、交换及Wi-Fi功能于一体），存在硬件性能不足和功能受限两大问题。本文详细记录通过桥接模式改造实现网络性能升级的全流程。
 abbrlink: 2455d826
@@ -95,31 +91,31 @@ abbrlink: 2455d826
   ![普通账号登录界面](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301600224.png)
 
 - 成功登录后，进入光猫管理主页
-   ![光猫管理主页](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301637994.png)
+  ![光猫管理主页](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301637994.png)
 
 ### 开启Telnet功能
 
 - 新建浏览器标签页，访问以下Telnet激活链接：
 
-   ```plaintext
-   http://192.168.1.1/usr=CMCCAdmin&psw=aDm8H%MdA&cmd=1&telnet.gch
-   ```
+  ```plaintext
+  http://192.168.1.1/usr=CMCCAdmin&psw=aDm8H%MdA&cmd=1&telnet.gch
+  ```
 
   {% note orange no-icon %}
   参数说明：usr = CMCCAdmin（超级管理员账号）；psw = aDm8H%MdA（超级管理员密码）
   {% endnote %}
 
 - 页面显示“TelnetSet Success!”即表示开启成功
-![成功开启Telnet](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301642596.png)
+  ![成功开启Telnet](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301642596.png)
 
 ### 在Windows中启用Telnet客户端
 
-- 按`Win + E`打开文件资源管理器  
+- 按`Win + E`打开文件资源管理器
 - 进入以下路径
 
-   ```plaintext
-   控制面板\所有控制面板项\程序和功能
-   ```
+  ```plaintext
+  控制面板\所有控制面板项\程序和功能
+  ```
 
   ![程序和功能界面](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301647836.png)
 
@@ -136,9 +132,9 @@ abbrlink: 2455d826
 
 - 执行Telnet连接命令：
 
-   ```cmd
-   telnet 192.168.1.1
-   ```
+  ```cmd
+  telnet 192.168.1.1
+  ```
 
   ![Telnet连接命令](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301657546.png)
 
@@ -170,25 +166,25 @@ abbrlink: 2455d826
 
 - 执行配置解密命令：
 
-   ```cmd
-   sidbg 1 DB decry /userconfig/cfg/db_user_cfg.xml
-   ```
+  ```cmd
+  sidbg 1 DB decry /userconfig/cfg/db_user_cfg.xml
+  ```
 
   ![执行解密命令](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301715583.png)
 
 - 查看解密后的配置文件：
 
-   ```cmd
-   vi /tmp/debug-decry-cfg
-   ```
+  ```cmd
+  vi /tmp/debug-decry-cfg
+  ```
 
-   ![查看配置文件](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301716632.png)
+  ![查看配置文件](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301716632.png)
 
 - 搜索关键字段：
 
-   ```cmd
-   /DevAuthInfo
-   ```
+  ```cmd
+  /DevAuthInfo
+  ```
 
   ![搜索关键信息](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301716561.png)
 
@@ -202,7 +198,7 @@ abbrlink: 2455d826
 - 使用获取的超级管理员账号及密码登录后台
   {% note green no-icon %}
   超级管理员账号：CMCCAdmin  
-  超级管理员密码：P*xxxxxx
+  超级管理员密码：P\*xxxxxx
   {% endnote %}
 
   ![超级管理员登录](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301723069.png)
@@ -214,15 +210,15 @@ abbrlink: 2455d826
   ![选择INTERNET连接](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301725376.png)
 
 - 向下浏览页面，可看到拨号账号；密码默认为星号隐藏，需查阅此前获取的配置文件
-![PPPoE账号显示](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301750319.png)
+  ![PPPoE账号显示](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301750319.png)
 
 ### 在配置文件中定位拨号信息
 
 - 于配置文件中执行搜索：
 
-   ```cmd
-   /157xxxxxxxx
-   ```
+  ```cmd
+  /157xxxxxxxx
+  ```
 
   ![搜索账号信息](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508301801439.png)
 
@@ -260,7 +256,7 @@ abbrlink: 2455d826
 - **性能提升**：成功解决了原光猫硬件性能瓶颈带来的网络卡顿、延迟高等问题。
 - **功能释放**：获得了完整的网络管理权限，可以充分利用路由器的高级功能，如QoS、VPN、IPv6内网穿透等。
 - **架构优化**：建立了更加专业、稳定和可控的家庭网络架构，为未来的网络应用（如NAS、智能家居、影音娱乐）打下了坚实基础。
-  
+
 此次升级不仅提升了当下的网络体验，更是一次一劳永逸的投资，为家庭数字化生活提供了更强大的网络支撑。
 
 ![网络结构对比图](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202508310206347.png)

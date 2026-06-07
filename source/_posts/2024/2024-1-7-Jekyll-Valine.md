@@ -1,13 +1,10 @@
 ---
 layout: post
 date: "2024-01-7/03:06:04"
-title: Valine 评论邮件提醒
+title: Valine 评论系统邮件提醒配置指南
 cover: "https://console.leancloud.cn/favicon.ico"
-categories:
-  - Jekyll
-tags:
-  - Jekyll
-  - 博客
+categories: 博客折腾
+tags: [Jekyll, 评论系统, LeanCloud]
 abbrlink: "673e8029"
 ---
 

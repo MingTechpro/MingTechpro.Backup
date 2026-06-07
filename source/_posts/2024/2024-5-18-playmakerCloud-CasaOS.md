@@ -1,10 +1,8 @@
 ---
-title: 玩客云的新生：CasaOS 系统刷机全记录
+title: 玩客云复活计划：CasaOS 系统刷机全记录
 date: 2024-05-18 20:05:59
-tags:
-  - CasaOS
-  - 玩客云
-categories: 玩客云
+categories: 硬件折腾
+tags: [玩客云, CasaOS]
 cover: https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/wallpaper/202405111628575.jpg
 description: 玩客云，一款硬件性能出色的智能存储设备。轻 NAC 系统（CasaOS）以其简洁高效的优势，深受众多用户喜爱。将玩客云刷入 CasaOS 系统，能充分挖掘其潜力，带来全新功能和体验。下面，我将为大家详细介绍玩客云刷入 CasaOS 的具体步骤，并分享其优势，希望能激发大家对刷机过程的兴趣。
 abbrlink: b065c228
@@ -68,8 +66,8 @@ abbrlink: b065c228
 
 ### 进入路由器后台查看设备IP
 
-- 查找名为`“onecloud”`的设备，并记下其 IP 地址
-  ![查找设备Ip](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182140430.png)
+查找名为`“onecloud”`的设备，并记下其 IP 地址
+![查找设备Ip](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/202405182140430.png)
 
 ### 刷入 CasaOS
 

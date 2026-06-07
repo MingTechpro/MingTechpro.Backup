@@ -1,14 +1,11 @@
 ---
 layout: post
 date: "2023-12-14/16:45:20"
-title: Markdown 进阶写作指南
+title: Markdown 进阶写作指南：效率与排版
 cover: >-
   https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/wallpaper/202404272114346.jpg
-categories:
-  - Markdown
-tags:
-  - Markdown
-  - 博客
+categories: 博客折腾
+tags: [Markdown, 写作技巧]
 mathjax: true
 abbrlink: 2b5beace
 ---

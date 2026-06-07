@@ -1,14 +1,11 @@
 ---
 layout: post
 date: "2023-12-12/16:50:28"
-title: 使用 Jekyll 在 GitHub 上搭建个人博客
+title: 从零开始：Jekyll on GitHub Pages 搭建博客
 cover: >-
   https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/wallpaper/202405111623367.jpg
-categories:
-  - Jekyll
-tags:
-  - Jekyll
-  - 博客
+categories: 博客折腾
+tags: [Jekyll, 静态网站]
 abbrlink: 94ec1eda
 ---
 

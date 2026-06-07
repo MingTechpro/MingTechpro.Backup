@@ -1,13 +1,11 @@
 ---
 title: 外网访问新方案：IPv6 + DDNS-GO + Cloudflare 配置全记录
-abbrlink: dc023582
 date: 2026-02-15 21:45:26
-tags:
-  - CasaOS
-  - IPV6
-categories: 网络
+tags: [IPv6, DDNS, Cloudflare, CasaOS]
+categories: 网络 & 自部署
 cover: https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/wallpaper/20260307000153595.jpg
 description:
+abbrlink: dc023582
 ---
 
 ## 引言
@@ -28,7 +26,7 @@ description:
 
 {% note orange no-icon %}
 如果光猫未改桥接模式，会导致 IPV6 地址嵌套过多，无法正常的访问。
-需要光猫改桥接模式可参考：[家庭网络架构升级指南：光猫桥接模式配置全流程](/posts/2455d826)
+需要光猫改桥接模式可参考：[家庭网络架构升级指南：光猫桥接模式配置全流程](/posts/2455d826/)
 {% endnote %}
 
 ### 检查 IPv6 连通性

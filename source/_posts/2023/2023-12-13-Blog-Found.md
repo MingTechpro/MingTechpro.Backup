@@ -1,12 +1,9 @@
 ---
 layout: post
 date: "2023-12-13/16:49:59"
-title: Markdown 博客写作指南
-categories:
-  - Markdown
-tags:
-  - Markdown
-  - 博客
+title: 如何用 Markdown 高效撰写博客文章
+categories: 博客折腾
+tags: [Markdown, 博客写作]
 abbrlink: f909e55e
 cover:
 ---
