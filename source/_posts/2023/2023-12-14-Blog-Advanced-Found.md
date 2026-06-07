@@ -1,13 +1,12 @@
 ---
 layout: post
-date: "2023-12-14/16:45:20"
-title: Markdown 进阶写作指南：效率与排版
-cover: >-
-  https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/wallpaper/202404272114346.jpg
+title: Markdown进阶写作技巧：排版优化与效率提升指南
+date: "2023-12-14 16:45:20"
 categories: 博客折腾
 tags: [Markdown, 写作技巧]
-mathjax: true
+cover: https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/wallpaper/202404272114346.jpg
 abbrlink: 2b5beace
+mathjax: true
 ---
 
 9个Markdown文档进阶写作技巧分享：

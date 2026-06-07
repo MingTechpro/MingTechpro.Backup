@@ -1,10 +1,11 @@
 ---
 layout: post
-date: "2024-01-7/03:06:04"
-title: Valine 评论系统邮件提醒配置指南
-cover: "https://console.leancloud.cn/favicon.ico"
+title: Valine评论系统配置：基于LeanCloud实现邮件实时提醒
+date: "2024-01-7 03:06:04"
 categories: 博客折腾
 tags: [Jekyll, 评论系统, LeanCloud]
+cover: "https://console.leancloud.cn/favicon.ico"
+description: Valine 是一个基于 LeanCloud 的快速、简洁且高效的无后端评论系统。它具有强大的功能和灵活的配置选项，本文将向您介绍如何在 Valine-admin 中设置评论邮件提醒功能，以便及时收到用户对您博客的评论通知。
 abbrlink: "673e8029"
 ---
 

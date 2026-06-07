@@ -1,5 +1,5 @@
 ---
-title: 玩客云复活计划：CasaOS 系统刷机全记录
+title: 玩客云刷机指南：刷入 CasaOS 打造轻量 NAS 替代方案
 date: 2024-05-18 20:05:59
 categories: 硬件折腾
 tags: [玩客云, CasaOS]

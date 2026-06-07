@@ -1,11 +1,11 @@
 ---
 layout: post
-date: "2023-12-13/16:49:59"
-title: 如何用 Markdown 高效撰写博客文章
+title: Markdown博客写作全流程：从文件创建到GitHub部署
+date: "2023-12-13 16:49:59"
 categories: 博客折腾
 tags: [Markdown, 博客写作]
-abbrlink: f909e55e
 cover:
+abbrlink: f909e55e
 ---
 
 手把手教你如何在博客写文章，

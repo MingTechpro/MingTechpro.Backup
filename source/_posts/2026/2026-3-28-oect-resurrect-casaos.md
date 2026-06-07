@@ -1,5 +1,5 @@
 ---
-title: 网心云 OECT 复活计划：刷入 CasaOS 打造轻量家庭服务器
+title: 网心云OECT刷机指南：刷入 CasaOS 打造轻量家庭服务器
 date: 2026-03-28 22:13:21
 categories: 硬件折腾
 tags: [网心云, OECT, CasaOS, 家庭服务器]
