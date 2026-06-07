@@ -122,6 +122,15 @@ abbrlink: c4c3fa0f
   ![注册账号](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/post-img_url/20260607203439282.png)
   ![登录](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/post-img_url/20260607203454857.png)
 
+## 应用推荐
+
+- Home Assistant：这是一款极为强大的智能家居控制中心，能使你便捷地对家中的各类智能设备进行管理。
+- 青龙：可用于 Python、JavaScript、Shell 以及 Typescript 脚本的任务管理平台。
+- qBittorrent：免费的 BitTorrent 下载工具。
+- Alist：一个能够支持多种存储的文件列表程序。
+- Pi-hole：强大的网络广告拦截利器。
+- Memos：简单且易用的笔记应用，便于你记录重要的信息和创意想法。
+
 ## 总结
 
 通过这次折腾，不仅让吃灰的设备重新焕发了生机，还顺便给家里省了一台 24 小时开机的树莓派。如果你手里也有闲置的 OECT，不妨跟着教程试试，体验一下自己动手打造家庭云的乐趣！
