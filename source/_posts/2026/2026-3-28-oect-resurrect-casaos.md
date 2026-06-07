@@ -65,3 +65,5 @@ abbrlink: c4c3fa0f
 - 点击 `执行` 刷入引导程序和底层系统固件
   ![20260607002648086](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/post-img_url/20260607002648086.png)
   等待刷好，给设备通上电并插入网线链接路由器
+
+### 进入路由器查看访问IP地址
