@@ -1,8 +1,8 @@
 ---
-title: 外网访问新方案：IPv6 + DDNS-GO + Cloudflare 配置全记录
+title: 外网访问方案：IPv6 + DDNS-GO + Cloudflare 实现全设备外网安全访问
 date: 2026-02-15 21:45:26
-tags: [IPv6, DDNS, Cloudflare, CasaOS]
 categories: 网络 & 自部署
+tags: [IPv6, DDNS, Cloudflare, 内网穿透, 网络安全]
 cover: https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/wallpaper/20260307000153595.jpg
 description:
 abbrlink: dc023582
