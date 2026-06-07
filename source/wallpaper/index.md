@@ -4,7 +4,9 @@ date: 2024-05-11 16:18:29
 ---
 
 {% gallery true %}
-![20260314172426769](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260314172426769.png)
+![20260607215414628](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260607215414628.png)
+![20260607214043124](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260607214043124.png)
+![20260314171402662](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260314171402662.png)
 ![20260314170845753](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260314170845753.png)
 ![20260314170838271](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260314170838271.png)
 ![20260314170101105](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260314170101105.jpg)
@@ -13,7 +15,7 @@ date: 2024-05-11 16:18:29
 ![20260313153100136](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260313153100136.jpg)
 ![20260313152457641](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260313152457641.jpg)
 ![20260307000153595](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260307000153595.jpg)
-![202602190109767](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/202602190109767.jpg)
+![20260109767](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/202602190109767.jpg)
 ![202505292002686](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/202505292002686.jpg)
 ![202405271048179](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/202405271048179.jpg)
 ![202405271047919](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/202405271047919.jpg)
