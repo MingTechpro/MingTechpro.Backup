@@ -7,7 +7,7 @@ title: MingTechpro # 网站标题
 subtitle: "This is MingTechpro's personal blog." # 网站副标题
 description: "日落归山海，山海藏深意" # 网站描述
 # description: "人性的背后是白云苍狗，愿你我都是生活的高手"
-keywords: # 网站的关键词,支持多个关键词
+keywords: MingTechPro, 自部署实验室, 硬件折腾笔记, 家庭网络实战, 技术写作 # 网站的关键词,支持多个关键词
 author: MingTechpro # 您的名字
 language: zh-CN # 语言：default(en)，zh-CN (简体中文)，zh-TW (繁体中文)
 timezone: "Asia/Shanghai" # 设置网站时区，Hexo 默认使用您电脑的时区（查询时区：https://en.wikipedia.org/wiki/List_of_tz_database_time_zones）
