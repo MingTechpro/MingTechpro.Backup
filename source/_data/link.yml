@@ -61,6 +61,11 @@
       avatar: https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/avatar-bg_url/202405160042176.png
       descr: 一款从 Valine 衍生的带后端评论系统
 
+    - name: Jerry
+      link: https://butterfly.js.org/
+      avatar: https://butterfly.js.org/img/butterfly-icon.png
+      descr: A Simple and Card UI Design theme for Hexo
+
     - name: 小玉石的博客
       link: //bl-sun.github.io/
       avatar: //bl-sun.github.io/-/img/avatar.jpeg
