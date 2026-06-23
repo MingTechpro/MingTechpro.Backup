@@ -24,7 +24,7 @@ abbrlink: dc023582
 | 域名     | 一个已托管在 Cloudflare 的域名               |
 | 网络     | 目标设备能获得公网 IPv6 地址（光猫桥接模式） |
 
-{% note orange no-icon %}
+{% note warning flat %}
 如果光猫未改桥接模式，会导致 IPV6 地址嵌套过多，无法正常的访问。
 需要光猫改桥接模式可参考：[IPv6 + DDNS-GO + Cloudflare：全场景家庭内网安全穿透方案](/posts/2455d826/)
 {% endnote %}
@@ -41,7 +41,7 @@ ip -6 addr show | grep "scope global"
 ping6 -c 4 2400:3200::1
 ```
 
-{% note orange no-icon %}
+{% note warning flat %}
 如果能看到以 `240e`（中国电信）、`2408`（中国联通）、`2409`（中国移动）开头的 IPv6 地址，说明你的网络已支持 IPv6。
 {% endnote %}
 
@@ -63,7 +63,7 @@ ping6 -c 4 2400:3200::1
   ![配置管理权限](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/20260227233751011.png)
 - 创建令牌
   ![创建 API 令牌](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/20260227234106771.png)
-  {% note orange no-icon %}
+  {% note warning flat %}
   务必保存好生成的 `Token`（只显示一次）
   {% endnote %}
 
@@ -182,7 +182,7 @@ ping6 -c 4 2400:3200::1
 **功能说明：**自动检测并修复网页中未加密的 HTTP 资源引用，避免因混合内容（HTTP+HTTPS）导致浏览器提示 “不安全”，保证页面加载安全且正常显示。
 
 - 左侧菜单选择 `边缘证书` → `自动 HTTPS 重写开启`
-  ![自动 HTTPS 重写](https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/post-img_url/20260228150539077.png)
+  ![自动 HTTPS 重写](https://cdn.jsdmirror.cn/gh/MingTechpro/drawing-bed/post-img_url/20260228150539077.png)
 
 ## 总结
 

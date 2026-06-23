@@ -4,7 +4,7 @@ title: 零基础搭建静态博客：Jekyll+GitHub Pages全流程指南
 date: "2023-12-12 16:50:28"
 categories: 博客折腾
 tags: [Jekyll, 静态网站]
-cover: https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/wallpaper/202405111623367.jpg
+cover: https://cdn.jsdmirror.com/gh/MingTechPro/drawing-bed/wallpaper/20240511162336700.jpg
 abbrlink: 94ec1eda
 ---
 

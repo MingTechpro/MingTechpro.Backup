@@ -84,7 +84,7 @@ abbrlink: 2455d826
   http://192.168.1.1/
   ```
 
-  {% note orange no-icon %}
+  {% note warning flat %}
   建议使用普通用户账号登录（若修改过密码，请使用新密码）
   {% endnote %}
 
@@ -101,7 +101,7 @@ abbrlink: 2455d826
   http://192.168.1.1/usr=CMCCAdmin&psw=aDm8H%MdA&cmd=1&telnet.gch
   ```
 
-  {% note orange no-icon %}
+  {% note warning flat %}
   参数说明：usr = CMCCAdmin（超级管理员账号）；psw = aDm8H%MdA（超级管理员密码）
   {% endnote %}
 
@@ -196,7 +196,7 @@ abbrlink: 2455d826
 ### 使用超级管理员登录
 
 - 使用获取的超级管理员账号及密码登录后台
-  {% note green no-icon %}
+  {% note success flat %}
   超级管理员账号：CMCCAdmin  
   超级管理员密码：P\*xxxxxx
   {% endnote %}
