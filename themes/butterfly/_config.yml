@@ -75,7 +75,7 @@ avatar:
 disable_top_img: false
 
 # 如果页面横幅未设置， 它将显示默认顶图
-default_top_img: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/202405271047026.jpg
+default_top_img: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20240527104702600.jpg
 
 # 首页的横幅图片
 index_img: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260307000153595.jpg
@@ -118,7 +118,7 @@ cover:
   archives_enable: true
   # 当封面未设置时，显示默认封面
   default_cover:
-    - https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/202505292002686.jpg
+    - https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20250529200268600.jpg
 
 # 替换损坏的图片
 error_img:
@@ -789,11 +789,11 @@ google_adsense:
 # 如果不需要广告，请保持为空
 ad:
   # 在索引中插入广告（每三篇文章一次）
-  index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-8808746059154589" data-ad-slot="1538867630"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
+  # index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-8808746059154589" data-ad-slot="1538867630"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
   # 在侧边插入广告
-  aside: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8808746059154589" data-ad-slot="8108145410" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
+  # aside: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8808746059154589" data-ad-slot="8108145410" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
   # 在文章中插入广告（分页前）
-  post: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-8808746059154589" data-ad-slot="5978969231"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
+  # post: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-8808746059154589" data-ad-slot="5978969231"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
 
 # --------------------------------------
 # 站长验证
