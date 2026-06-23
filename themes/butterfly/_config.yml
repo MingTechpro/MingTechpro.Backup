@@ -782,18 +782,18 @@ google_adsense:
   enable: false
   auto_ads: true
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
-  client:
+  client: ca-pub-8808746059154589
   enable_page_level_ads: true
 
 # 手动插入广告
 # 如果不需要广告，请保持为空
 ad:
   # 在索引中插入广告（每三篇文章一次）
-  index:
+  index: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-8808746059154589" data-ad-slot="1538867630"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
   # 在侧边插入广告
-  aside:
+  aside: <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-8808746059154589" data-ad-slot="8108145410" data-ad-format="auto" data-full-width-responsive="true"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
   # 在文章中插入广告（分页前）
-  post:
+  post: <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout-key="-fb+5w+4e-db+86" data-ad-client="ca-pub-8808746059154589" data-ad-slot="5978969231"></ins><script>(adsbygoogle=window.adsbygoogle||[]).push({})</script>
 
 # --------------------------------------
 # 站长验证
@@ -1122,8 +1122,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     # 谷歌广告联盟
-    - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8808746059154589"
-      crossorigin="anonymous"></script>
+    # - <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8808746059154589" crossorigin="anonymous"></script>
     # 微软访问监控
     - <script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "m8d4dvwgzi");</script>
     # 提前与第三方域名建立连接
