@@ -2,9 +2,9 @@
 layout: post
 title: Markdown博客写作全流程：从文件创建到GitHub部署
 date: "2023-12-13 16:49:59"
-categories: 博客折腾
+categories: 运维笔记
 tags: [Markdown, 博客写作]
-cover:
+cover: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20250529200268600.jpg
 abbrlink: f909e55e
 ---
 

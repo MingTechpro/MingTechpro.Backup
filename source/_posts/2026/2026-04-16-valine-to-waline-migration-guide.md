@@ -1,7 +1,7 @@
 ---
 title: Valine 平滑升级至 Waline：基于 LeanCloud 的无痛迁移与部署指南
 date: 2026-04-16 22:05:50
-categories: 博客折腾
+categories: 运维笔记
 tags: [Waline, Valine, LeanCloud, 评论系统]
 cover: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260314170101105.jpg
 description: Valine 作者已长期未维护，且存在潜在的 XSS 安全漏洞和隐私泄露风险（如邮箱泄露）。Waline 作为 Valine 的继任者，由社区活跃维护，不仅修复了安全问题，还新增了邮件通知、图片上传、点赞等功能，且完全兼容旧版 LeanCloud 数据。
