@@ -3,10 +3,10 @@
   "version": "5.5.4",
   "private": true,
   "scripts": {
-    "运行服务": "hexo server",
-    "构建项目": "hexo generate",
-    "清理缓存": "hexo clean",
     "部署项目": "hexo deploy",
+    "运行服务": "hexo server",
+    "清理缓存": "hexo clean",
+    "构建项目": "hexo generate",
     "清理缓存部署项目": "hexo clean && hexo deploy --generate"
   },
   "hexo": {

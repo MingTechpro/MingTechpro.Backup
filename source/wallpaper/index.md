@@ -4,6 +4,11 @@ date: 2024-05-11 16:18:29
 ---
 
 {% gallery true %}
+![20260924235610681](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260924235610681.jpg)
+![20260924235603330](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260924235603330.jpg)
+![20260924235552286](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260924235552286.jpg)
+![20260924235525016](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260924235525016.jpg)
+![20260924235314848](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260924235314848.png)
 ![20260626230442024](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260626230442024.png)
 ![20260626230352487](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260626230352487.png)
 ![20260623235055375](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260623235055375.png)

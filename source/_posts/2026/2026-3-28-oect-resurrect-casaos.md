@@ -64,7 +64,7 @@ abbrlink: c4c3fa0f
   ![MASKPROM设备](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/post-img_url/20260607002215096.png)
 
 - 点击 `执行` 刷入引导程序和底层系统固件
-  ![20260607002648086](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/post-img_url/20260607002648086.png)
+  ![执行](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/post-img_url/20260607002648086.png)
 
 - 待刷好，给设备通上电并插入网线链接路由器
 
