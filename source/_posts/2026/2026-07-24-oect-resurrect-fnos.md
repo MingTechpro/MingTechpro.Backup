@@ -1,8 +1,8 @@
 ---
 title: 网心云OECT刷机指南：刷入 fnOS 打造低功耗私有云
-date: 2026-09-24 20:50:17
+date: 2026-07-24 20:50:17
 categories: 硬件折腾
-tags: [fnOS, 飞牛私有云, 网心云OECT, 家庭服务器]
+tags: [fnOS, 私有云, 网心云OECT, 家庭服务器]
 cover: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/post-img_url/20260924233323847.png
 description: 将吃灰的网心云 OECT 通过刷机改造，刷入 fnOS（飞牛私有云 ARM 版），变废为宝打造低功耗家庭 NAS。
 abbrlink: 7e43b1c0
