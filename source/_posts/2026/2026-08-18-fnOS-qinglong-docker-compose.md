@@ -119,7 +119,7 @@ services:
 
 - 保存后，定时任务才能读到这些变量
   ![环境变量](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/post-img_url/20261002022342547.png)
-  > 注意：敏感变量不要在公网裸暴露，下文安全部分会讲访问收敛。
+  > 注意：敏感变量不要在公网裸暴露。
 
 ### 安装脚本依赖
 
