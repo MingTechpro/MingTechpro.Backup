@@ -63,7 +63,7 @@ npm install hexo-theme-butterfly
 theme: butterfly
 ```
 
-1. **安裝依賴**: 如果您尚未安裝 pug 和 stylus 渲染器，請執行：
+2. **安裝依賴**: 如果您尚未安裝 pug 和 stylus 渲染器，請執行：
 
 ```bash
 npm install hexo-renderer-pug hexo-renderer-stylus --save
@@ -72,7 +72,6 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 ## ✨ 主題特色
 
 ### 🎨 設計風格
-
 - [x] **卡片化設計** - 現代化的卡片式佈局
 - [x] **圓角/直角設計** - 支援自訂邊框樣式
 - [x] **響應式設計** - 完美適配各種螢幕尺寸
@@ -80,7 +79,6 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 - [x] **深色模式** - 護眼的夜間模式
 
 ### 📝 內容功能
-
 - [x] **多級選單** - 支援二級導航選單
 - [x] **閱讀模式** - 專注的文章閱讀體驗
 - [x] **目錄導航** - 電腦和手機雙端支援 TOC
@@ -91,33 +89,28 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 - [x] **標籤外掛** - 豐富的標籤外掛支持
 
 ### 🔍 搜尋與導航
-
 - [x] **多種搜尋** - Algolia 搜尋 / 本地搜尋 / Docsearch
 - [x] **內建 404** - 美觀的 404 錯誤頁面
 - [x] **Pjax 支援** - 流暢的頁面切換體驗
 
 ### 🎨 程式碼展示
-
 - [x] **語法高亮** - 內建多種主題（darker/pale night/light/ocean）
 - [x] **程式碼功能** - 語言顯示/摺疊展開/複製按鈕/自動換行
 - [x] **數學公式** - 支援 Mathjax 和 Katex
 
 ### 💬 社交互動
-
 - [x] **多元評論系統** - Disqus/Gitalk/Valine/Waline/Twikoo/Giscus/Artalk 等
 - [x] **雙評論支援** - 可同時啟用兩套評論系統
 - [x] **分享功能** - Sharejs/Addtoany 分享套件
 - [x] **線上客服** - Chatra/Tidio/Crisp 即時聊天
 
 ### 📊 數據分析
-
 - [x] **訪問統計** - 不蒜子計數器
 - [x] **網站分析** - Google Analytics/百度統計/Cloudflare Analytics/Microsoft Clarity/Umami
 - [x] **站長驗證** - 各大搜尋引擎驗證
 - [x] **廣告支援** - Google AdSense/自訂廣告位
 
 ### 🎪 視覺效果
-
 - [x] **打字特效** - activate_power_mode 動畫
 - [x] **背景特效** - 靜態彩帶/動態彩帶/飄帶效果/Canvas Nest
 - [x] **滑鼠特效** - 煙花/愛心/文字點擊效果
@@ -126,13 +119,11 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 - [x] **懶載入** - 圖片延遲載入優化
 
 ### 🛠️ 進階功能
-
 - [x] **PWA 支援** - 漸進式網頁應用
 - [x] **複製保護** - 可關閉文字複製/版權資訊追加
 - [x] **主題定製** - 自訂網站配色方案
 - [x] **圖表支援** - Mermaid 流程圖/Chart.js 數據圖表
 - [x] **音樂符號** - ABCJS 音樂記譜法支援
-- [x] **音樂播放器** - APlayer/Meting 音樂播放功能
 - [x] **系列文章** - 系列文章組織功能
 - [x] **Instantpage** - 頁面預載入加速
 - [x] **Snackbar** - 優雅的提示訊息
@@ -156,6 +147,7 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 ![主題展示](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-4.jpg)
 
 </div>
+
 
 ## ⭐ Star 趨勢
 
@@ -197,5 +189,4 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 <div align="center">
 
 **✨ 如果這個主題對您有幫助，請給我們一個 ⭐ Star！✨**
-
 </div>

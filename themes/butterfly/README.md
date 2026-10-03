@@ -63,7 +63,7 @@ npm install hexo-theme-butterfly
 theme: butterfly
 ```
 
-1. **Install Dependencies**: If you haven't installed pug and stylus renderers, please run:
+2. **Install Dependencies**: If you haven't installed pug and stylus renderers, please run:
 
 ```bash
 npm install hexo-renderer-pug hexo-renderer-stylus --save
@@ -72,7 +72,6 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 ## ✨ Theme Features
 
 ### 🎨 Design Style
-
 - [x] **Card-based Design** - Modern card-style layout
 - [x] **Rounded/Square Design** - Customizable border styles
 - [x] **Responsive Design** - Perfect adaptation to all screen sizes
@@ -80,7 +79,6 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 - [x] **Dark Mode** - Eye-friendly night mode
 
 ### 📝 Content Features
-
 - [x] **Multi-level Menu** - Support for secondary navigation menus
 - [x] **Reading Mode** - Focused article reading experience
 - [x] **TOC Navigation** - Desktop and mobile TOC support
@@ -91,33 +89,28 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 - [x] **Tag Plugins** - Rich tag plugin support
 
 ### 🔍 Search & Navigation
-
 - [x] **Multiple Search Options** - Algolia Search / Local Search / Docsearch
 - [x] **Built-in 404** - Beautiful 404 error page
 - [x] **Pjax Support** - Smooth page transition experience
 
 ### 🎨 Code Display
-
 - [x] **Syntax Highlighting** - Built-in multiple themes (darker/pale night/light/ocean)
 - [x] **Code Features** - Language display/fold expand/copy button/auto-wrap
 - [x] **Math Formulas** - Support for Mathjax and Katex
 
 ### 💬 Social Interaction
-
 - [x] **Multiple Comment Systems** - Disqus/Gitalk/Valine/Waline/Twikoo/Giscus/Artalk etc.
 - [x] **Dual Comments Support** - Enable two comment systems simultaneously
 - [x] **Share Features** - Sharejs/Addtoany sharing components
 - [x] **Live Chat** - Chatra/Tidio/Crisp instant messaging
 
 ### 📊 Analytics & Statistics
-
 - [x] **Visit Statistics** - Busuanzi counter
 - [x] **Site Analytics** - Google Analytics/Baidu Analytics/Cloudflare Analytics/Microsoft Clarity/Umami
 - [x] **Webmaster Verification** - Major search engine verification
 - [x] **Ad Support** - Google AdSense/custom ad slots
 
 ### 🎪 Visual Effects
-
 - [x] **Typing Effects** - activate_power_mode animations
 - [x] **Background Effects** - Static ribbons/dynamic ribbons/floating ribbons/Canvas Nest
 - [x] **Mouse Effects** - Fireworks/hearts/text click effects
@@ -126,13 +119,11 @@ npm install hexo-renderer-pug hexo-renderer-stylus --save
 - [x] **Lazy Loading** - Image lazy loading optimization
 
 ### 🛠️ Advanced Features
-
 - [x] **PWA Support** - Progressive Web App
 - [x] **Copy Protection** - Disable text copying/copyright info append
 - [x] **Theme Customization** - Custom site color schemes
 - [x] **Chart Support** - Mermaid flowcharts/Chart.js data charts
 - [x] **Music Notation** - ABCJS music notation support
-- [x] **Music Player** - APlayer/Meting music playback
 - [x] **Article Series** - Series article organization
 - [x] **Instantpage** - Page preloading acceleration
 - [x] **Snackbar** - Elegant notification messages
@@ -156,6 +147,7 @@ Thanks to all the developers who have contributed to the Butterfly theme!
 ![Theme Demo](https://cdn.jsdelivr.net/gh/jerryc127/CDN@m2/img/butterfly-readme-screenshots-4.jpg)
 
 </div>
+
 
 ## ⭐ Star History
 
@@ -197,5 +189,4 @@ Thanks to all friends who have contributed to the development of the Butterfly t
 <div align="center">
 
 **✨ If this theme helps you, please give us a ⭐ Star! ✨**
-
 </div>
