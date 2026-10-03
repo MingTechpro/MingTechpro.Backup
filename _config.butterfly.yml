@@ -1124,7 +1124,7 @@ CDN:
     # artalk_css:
     # artalk_js:
     # blueimp_md5:
-    # busuanzi:
+    busuanzi: //cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.abbr.min.js
     # canvas_fluttering_ribbon:
     # canvas_nest:
     # canvas_ribbon:
