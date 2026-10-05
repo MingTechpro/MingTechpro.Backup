@@ -425,7 +425,7 @@ rightside_config_animation: true
 
 anchor:
   # When you scroll, the URL will update according to header id.
-  auto_update: true
+  auto_update: false
   # Click the headline to scroll and update the anchor
   click_to_scroll: true
 
@@ -849,7 +849,7 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work
 font:
-  global_font_size: 15px
+  global_font_size: 14px
   code_font_size:
   font_family:
   code_font_family:
