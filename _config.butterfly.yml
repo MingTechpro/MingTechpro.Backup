@@ -274,7 +274,7 @@ footer:
   copyright:
     enable: true
     version: true
-  custom_text: <img src="/img/cyber-security.png" style="position:relative;top:4px;" width="20px" height="20px"/><a href="https://beian.mps.gov.cn/#/query/webSearch?code=44512202000119" rel="noreferrer" target="_blank">粤公网安备44512202000119号</a> | <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2026022037号</a> <br> <img src="https://icp.gov.moe/favicon.ico" style="position:relative;top:4px;" width="20px" height="20px"><a href="https://icp.gov.moe/?keyword=20249006" target="_blank">萌ICP备20249006号</a>  | <a href="https://www.busuanzi.cc/count.php?search=mingtechpro.top" target="_blank"><img style="position:relative;top:6px;" width="85px" height="25px" src="https://www.busuanzi.cc/static/images/bsz-tongji.png"></a> <br> All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> unless stating additionally.
+  custom_text: <img src="/img/cyber-security.png" style="position:relative;top:4px;" width="20px" height="20px"/><a href="https://beian.mps.gov.cn/#/query/webSearch?code=44512202000119" rel="noreferrer" target="_blank">粤公网安备44512202000119号</a> | <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2026022037号</a> <br> <img src="https://icp.gov.moe/favicon.ico" style="position:relative;top:4px;" width="20px" height="20px"><a href="https://icp.gov.moe/?keyword=20249006" target="_blank">萌ICP备20249006号</a>  | <a href="https://www.busuanzi.cc/count.php?search=mingtechpro.top" target="_blank"><img style="position:relative;top:6px;" width="85px" height="25px" src="/img/bsz-tongji.png"></a> <br> All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> unless stating additionally.
 # --------------------------------------
 # Aside Settings
 # --------------------------------------
@@ -849,7 +849,7 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work
 font:
-  global_font_size:
+  global_font_size: 15px
   code_font_size:
   font_family:
   code_font_family:
@@ -1000,7 +1000,7 @@ note:
   #  - modern    bs-callout new (v2-v3) alert style.
   #  - flat      flat callout style with background, like on Mozilla or StackOverflow.
   #  - disabled  disable all CSS styles import of note tag.
-  style: modern
+  style: flat
   icons: true
   border_radius: 3
   # Offset lighter of background in % for modern and flat styles (modern: -12 | 12; flat: -18 | 6).
