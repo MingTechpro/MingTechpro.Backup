@@ -54,6 +54,7 @@ date: 2024-04-30 01:15:56
 
 ## 壁纸
 
+- [哲风壁纸](https://haowallpaper.com) - 免费4K高清壁纸-电脑背景图片-Mac壁纸网站
 - [wallhaven](https://wallhaven.cc) - 老牌壁纸社区，按标签/颜色/分辨率筛选，动漫风景通吃
 - [Wallspic](https://wallspic.com) - 免费 4K/8K 壁纸站，桌面和手机分辨率自动适配
 - [4K Wallpapers](https://4kwallpapers.com) - 专注 4K/5K/8K 超清壁纸，带鱼屏也支持
