@@ -11,3 +11,4 @@ node_modules/
 # 忽略数据库文件（自动生成）
 db.json
 _multiconfig.yml
+.markdownlint.json
