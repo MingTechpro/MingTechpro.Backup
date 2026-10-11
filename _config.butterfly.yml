@@ -23,12 +23,12 @@ menu:
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder-open
   清单||fa fa-heartbeat:
-    数据图表: /datachart/ || fas fa-chart-pie
     壁纸墙: /wallpaper/ || fas fa-image
     摄影日记: /photographicDiary/ || fas fa-camera
     书签: /bookmark/ || fas fa-book
   友链: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
+  站点状态: /status/ || fas fa-chart-pie
 
 # --------------------------------------
 # Code Blocks Settings
@@ -55,7 +55,7 @@ code_blocks:
 social:
   fab fa-github: https://github.com/MingTechpro || Github || '#000'
   fas fa-tv: https://space.bilibili.com/210154480 || BiliBili || '#000'
-  fas fa-rss: /feed.xml || RSS || '#000'
+  fas fa-rss: /atom.xml || RSS || '#000'
   fas fa-envelope: mailto:ChenPeiming52001@163.com || Email || '#000'
 
 # --------------------------------------
@@ -787,19 +787,19 @@ site_verification:
 
 theme_color:
   enable: true # 是否启用主题颜色，true 表示启用，false 表示禁用
-  main: "#ecbac7" # 主要主题颜色，用于页面背景、按钮等元素
-  paginator: "#ecbac7" # 分页器颜色，用于分页按钮等
-  button_hover: "#FF7242" # 按钮悬停颜色，鼠标悬停时按钮的颜色
-  text_selection: "#00c4b6" # 文本选择颜色，用于用户选中文本时的背景颜色
+  main: "#f8c8d8" # 主要主题颜色，用于页面背景、按钮等元素
+  paginator: "#f8c8d8" # 分页器颜色，用于分页按钮等
+  button_hover: "#e07a8a" # 按钮悬停颜色，鼠标悬停时按钮的颜色
+  text_selection: "#f8c8d8" # 文本选择颜色，用于用户选中文本时的背景颜色
   link_color: "#fc6f94" # 链接颜色，用于超链接文本的颜色
   meta_color: "#858585" # 元数据颜色，用于日期、作者等元数据的颜色
-  hr_color: "#A4D8FA" # 分隔线颜色，用于水平分隔线的颜色
+  hr_color: "#f5dce6" # 分隔线颜色，用于水平分隔线的颜色
   code_foreground: "#F47466" # 代码前景色，用于代码文本的前景颜色
   code_background: "rgba(27, 31, 35, .05)" # 代码背景色，用于代码块的背景颜色
-  toc_color: "#00c4b6" # 目录颜色，用于文档目录的颜色
-  blockquote_padding_color: "#ecbac7" # 引用块填充颜色，用于引用块的填充颜色
-  blockquote_background_color: "#ecbac7" # 引用块背景颜色，用于引用块的背景颜色
-  scrollbar_color: "#ecbac7" # 滚动条颜色，用于滚动条的颜色
+  toc_color: "#f8c8d8" # 目录颜色，用于文档目录的颜色
+  blockquote_padding_color: "#f8c8d8" # 引用块填充颜色，用于引用块的填充颜色
+  blockquote_background_color: "#f8c8d8" # 引用块背景颜色，用于引用块的背景颜色
+  scrollbar_color: "#f8c8d8" # 滚动条颜色，用于滚动条的颜色
   meta_theme_color_light: "ffffff" # 元主题颜色（明亮模式），用于明亮模式下的元数据颜色
   meta_theme_color_dark: "#0d0d0d" # 元主题颜色（暗黑模式），用于暗黑模式下的元数据颜色
 
@@ -977,7 +977,7 @@ mermaid:
 # chartjs
 # see https://www.chartjs.org/docs/latest/
 chartjs:
-  enable: false
+  enable: true
   # Do not modify unless you understand how they work.
   # The default settings are only used when the MD syntax is not specified.
   # General font color for the chart
@@ -1016,8 +1016,8 @@ pjax:
   enable: true
   # Exclude the specified pages from pjax, such as '/music/'
   exclude:
-    - /music/
-    - /no-pjax/
+    # - /music/
+    # - /no-pjax/
 
 # Snackbar - Toast Notification
 # https://github.com/polonel/SnackBar
@@ -1026,7 +1026,7 @@ snackbar:
   enable: true
   position: bottom-left
   # The background color of Toast Notification in light mode and dark mode
-  bg_light: "#ecbac7"
+  bg_light: "#f8c8d8"
   bg_dark: "#1f1f1f"
 
 # Instant.page
@@ -1084,15 +1084,15 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
-    # 微软访问监控
-    - <script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "m8d4dvwgzi");</script>
     # 提前与第三方域名建立连接
     - <link rel="preconnect" href="https://cdn.jsdmirror.com">
     - <link rel="preconnect" href="https://registry.npmmirror.com">
+    # 站点状态监控 CSS
+    - <link rel="stylesheet" href="/css/status.css">
     # waline 评论 Meta 图标
     - <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline-meta.css"/>
     # 博客文章统计图
-    - <script src="https://npm.elemecdn.com/echarts@4.9.0/dist/echarts.min.js"></script>
+    - <script src="https://cdn.jsdelivr.net/npm/echarts@6.1.0/dist/echarts.min.js"></script>
 
   bottom:
     # - <script src="xxxx"></script>
@@ -1105,7 +1105,7 @@ CDN:
   # Note: Dev version can only use 'local' for internal scripts
   # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
   internal_provider: local
-  third_party_provider: custom
+  third_party_provider: jsdelivr
 
   # Add version number to url, true or false
   version: false
@@ -1113,7 +1113,7 @@ CDN:
   # Custom format
   # For example: https://cdn.staticfile.org/${cdnjs_name}/${version}/${min_cdnjs_file}
   # custom_format: https://registry.npmmirror.com/${name}/${version}/files/${file}
-  custom_format: https://jsd.012700.xyz/npm/${name}/${min_file}
+  # custom_format: https://jsd.012700.xyz/npm/${name}/${min_file}
   # custom_format: https://jsd.012700.xyz/npm/${name}@${version}/${min_file}
 
   option:
@@ -1124,7 +1124,7 @@ CDN:
     # artalk_css:
     # artalk_js:
     # blueimp_md5:
-    busuanzi: //cdn.busuanzi.cc/busuanzi/3.6.9/busuanzi.abbr.min.js
+    # busuanzi:
     # canvas_fluttering_ribbon:
     # canvas_nest:
     # canvas_ribbon:

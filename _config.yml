@@ -129,16 +129,7 @@ abbrlink:
   auto_date: false #启用自动日期，它可以自动填写日期的时间今天
   force: false #在这种模式下，插件将忽略缓存并计算每个帖子的abbrlink，即使它已经有了abbrlink。这只更新abbrlink而不是其他前端变量
 
-# RSS订阅
 feed:
-  # 指定生成的 Feed 类型为 rss2
-  输入: rss2
-  # 指定生成的 Feed 文件的路径和文件名
-  path: feed.xml
-  # 限制 Feed 中包含的文章数量为 100 篇
-  limit: 100
-
-# 音乐播放器 关闭asset_inject
-aplayer:
-  meting: true
-  asset_inject: false
+  type: atom
+  path: atom.xml
+  limit: 0
