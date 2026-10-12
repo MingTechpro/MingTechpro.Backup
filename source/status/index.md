@@ -15,12 +15,12 @@ echarts: true
 <div id="categories-chart" style="border-radius: 8px; height: 300px; padding: 10px; width: 100%;"></div>
 
 {% note success flat %}
-注：网站信息功能实现参考于 [Hexo Butterfly 添加站点状态页：运行天数与访客数据可视化教程](/posts/26d8c5dc/)
+网站信息功能实现参考于 [Hexo Butterfly 添加站点状态页：运行天数与访客数据可视化教程](/posts/26d8c5dc/)
 {% endnote %}
 
-<!-- {% note warning flat %}
-注：图标功能实现参考于 [Hexo 博客文章统计图 ](https://blog.eurkon.com/post/1213ef82.html)
-{% endnote %} -->
+{% note info flat %}
+图表功能实现参考于 [Hexo Butterfly 引入 ECharts：添加动态数据可视化图表](/posts/5805731a/)
+{% endnote %}
 
 {% note danger flat %}
 <font color=Red>特别注意：</font>如使用 Cloudflare 解析域名，请不要打开 `Rocket Loader™` 否则将无法正常显示图表
