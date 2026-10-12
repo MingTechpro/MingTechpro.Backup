@@ -39,7 +39,7 @@ code_blocks:
   theme: darker
   macStyle: true
   # Code block height limit (unit: px)
-  height_limit: false
+  height_limit: 400
   word_wrap: true
 
   # Toolbar
@@ -1090,7 +1090,7 @@ inject:
     # waline 评论 Meta 图标
     - <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline-meta.css"/>
     # 博客文章统计图
-    - <script src="https://cdn.jsdelivr.net/npm/echarts@6.1.0/dist/echarts.min.js"></script>
+    # - <script src="https://cdn.jsdelivr.net/npm/echarts@6.1.0/dist/echarts.min.js"></script>
 
   bottom:
     # - <script src="xxxx"></script>
