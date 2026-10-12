@@ -75,7 +75,7 @@ disable_top_img: false
 default_top_img: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20240527104702600.jpg
 
 # The banner image of index page
-index_img: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260307000153595.jpg
+index_img: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260314171402662.png
 
 # The banner image of archive page
 archive_img:
@@ -111,7 +111,7 @@ cover:
   archives_enable: true
   # When cover is not set, the default cover is displayed
   default_cover:
-    - https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20250529200268600.jpg
+    - https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20261006222403122.jpg
 # Replace Broken Images
 error_img:
   flink: /img/tiger-friend_404.gif
@@ -1087,8 +1087,6 @@ inject:
     # 提前与第三方域名建立连接
     - <link rel="preconnect" href="https://cdn.jsdmirror.com">
     - <link rel="preconnect" href="https://registry.npmmirror.com">
-    # 站点状态监控 CSS
-    - <link rel="stylesheet" href="/css/status.css">
     # waline 评论 Meta 图标
     - <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline-meta.css"/>
     # 博客文章统计图
