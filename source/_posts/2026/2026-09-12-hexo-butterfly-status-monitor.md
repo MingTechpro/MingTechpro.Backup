@@ -4,7 +4,7 @@ date: 2026-09-12 16:24:25
 categories: 运维笔记
 tags: [Butterfly, 站点状态]
 cover: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20260313153100136.jpg
-description: 详解在 Hexo Butterfly 中通过自定义 Pug 模板与注入脚本，添加展示运行时长、访问统计、字数等数据的站点状态 Status 页面完整教程。
+description: 详解如何在 Hexo Butterfly 中通过自定义 Pug 模板与注入脚本，添加展示运行时长、访问统计、字数等数据的站点状态 Status 页面完整教程。
 abbrlink: 26d8c5dc
 ---
 
