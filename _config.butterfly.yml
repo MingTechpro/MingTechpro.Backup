@@ -849,7 +849,7 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work
 font:
-  global_font_size: 14px
+  global_font_size: 15px
   code_font_size:
   font_family:
   code_font_family:
@@ -1089,8 +1089,6 @@ inject:
     - <link rel="preconnect" href="https://registry.npmmirror.com">
     # waline 评论 Meta 图标
     - <link rel="stylesheet" href="https://unpkg.com/@waline/client@v3/dist/waline-meta.css"/>
-    # 博客文章统计图
-    # - <script src="https://cdn.jsdelivr.net/npm/echarts@6.1.0/dist/echarts.min.js"></script>
 
   bottom:
     # - <script src="xxxx"></script>
