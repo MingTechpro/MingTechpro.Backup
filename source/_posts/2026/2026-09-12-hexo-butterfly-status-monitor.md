@@ -45,12 +45,12 @@ npm install hexo-wordcount --save
 ```yaml
 # Need to install the hexo-wordcount plugin
 wordcount:
-enable: true
-# Display the word count of the article in post meta
-post_wordcount: true
-# Display the time to read the article in post meta
-min2read: true
-# Display the total word count of the website in aside's webinfo
+  enable: true
+  # Display the word count of the article in post meta
+  post_wordcount: true
+  # Display the time to read the article in post meta
+  min2read: true
+  # Display the total word count of the website in aside's webinfo
 total_wordcount: true
 ```
 
@@ -61,9 +61,9 @@ total_wordcount: true
 ```yaml
 # Busuanzi count for PV / UV in site
 busuanzi:
-site_uv: true
-site_pv: true
-page_pv: true
+  site_uv: true
+  site_pv: true
+  page_pv: true
 ```
 
 {% note danger flat %}
@@ -89,10 +89,6 @@ hexo new page status
 ---
 title: 站点状态
 date: 2026-09-12 16:24:25
-layout: status
-todayPV: 今日总访问量
-todayUV: 今日访客总数
-echarts: false
 ---
 ```
 
@@ -108,7 +104,7 @@ echarts: false
 
 - 在 `themes\butterfly\layout\includes\` 目录下创建 `status-info.pug` 文件
 
-```js
+```javascript
 //- includes/status-info.pug
 .status-grid
   //- 运行时间
@@ -209,7 +205,7 @@ echarts: false
 
 - 在 `themes\butterfly\layout\` 目录下创建 `status.pug` 文件
 
-```js
+```javascript
 extends includes/layout.pug
 
 block content
@@ -365,7 +361,7 @@ block content
 
 - 在 `source\js\` 目录下创建 `status.js` 文件
 
-```js
+```javascript
 (function () {
   /**
    * 仅在 status 页面执行
@@ -431,7 +427,7 @@ block content
 ```yaml
 menu:
   首页: /#content-inner || fas fa-home
-  ······
+  # 省略...
   站点状态: /status/ || fas fa-chart-pie
 ```
 
@@ -464,11 +460,11 @@ hexo clean; hexo server
 
 **核心实现要点回顾：**
 
-- ✅ **页面生成**：使用 `hexo new page status` 创建独立页面，并通过 Front-matter 自定义字段传递数据
-- ✅ **模板扩展**：新增 `status.pug` 布局文件与 `status-info.pug` 组件，复用 Butterfly 已有的 WebInfo 数据结构
-- ✅ **数据展示**：整合了 **hexo-wordcount**（字数统计）、**不蒜子 / umami**（访问量 & 访客数）、**运行时长** 与 **最后更新时间** 等核心指标
-- ✅ **样式隔离**：通过 `status.css` 实现卡片网格布局与悬停动效，仅在 status 页面加载，不影响全局性能
-- ✅ **配置接入**：将页面加入 Butterfly 导航菜单，一键可达
+- **页面生成**：使用 `hexo new page status` 创建独立页面，并通过 Front-matter 自定义字段传递数据
+- **模板扩展**：新增 `status.pug` 布局文件与 `status-info.pug` 组件，复用 Butterfly 已有的 WebInfo 数据结构
+- **数据展示**：整合了 **hexo-wordcount**（字数统计）、**不蒜子 / umami**（访问量 & 访客数）、**运行时长** 与 **最后更新时间** 等核心指标
+- **样式隔离**：通过 `status.css` 实现卡片网格布局与悬停动效，仅在 status 页面加载，不影响全局性能
+- **配置接入**：将页面加入 Butterfly 导航菜单，一键可达
 
 **最终效果**：一个视觉统一、数据实时、响应式适配的站点状态面板，既满足了访客对博客运行情况的知情权，又保持了主题的整洁与可升级性。
 
