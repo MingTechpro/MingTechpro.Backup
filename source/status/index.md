@@ -4,6 +4,7 @@ date: 2024-05-03 19:57:53
 layout: status
 todayPV: 今日总访问量
 todayUV: 今日访客总数
+echarts: true
 ---
 
 <!-- 文章发布时间统计图 -->
@@ -13,8 +14,11 @@ todayUV: 今日访客总数
 <!-- 文章分类统计图 -->
 <div id="categories-chart" style="border-radius: 8px; height: 300px; padding: 10px; width: 100%;"></div>
 
-<!-- <br>
-{% note warning flat %}
+{% note success flat %}
+注：网站信息功能实现参考于 [Hexo Butterfly 添加站点状态页：运行天数与访客数据可视化教程](/posts/26d8c5dc/)
+{% endnote %}
+
+<!-- {% note warning flat %}
 注：图标功能实现参考于 [Hexo 博客文章统计图 ](https://blog.eurkon.com/post/1213ef82.html)
 {% endnote %} -->
 

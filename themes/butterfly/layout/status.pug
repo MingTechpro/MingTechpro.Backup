@@ -27,6 +27,9 @@ block content
     if page.layout === 'status'
       script(src=url_for('js/status.js') defer)
 
+    if page.echarts === true
+      script(src='//cdn.jsdelivr.net/npm/echarts@6.1.0/dist/echarts.min.js')
+
     //- md 正文输出
     .status-content(style="margin-top:1rem;")
       != page.content
