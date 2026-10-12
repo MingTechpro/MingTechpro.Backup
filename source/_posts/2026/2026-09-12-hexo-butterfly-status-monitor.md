@@ -40,7 +40,7 @@ npm install hexo-wordcount --save
 
 ### 开启字数统计
 
-- 在文件 `_config.butterfly.yml` 或 `themes\butterfly\_config.yml` 修改以下配置
+- 编辑 `_config.butterfly.yml` 或 `themes\butterfly\_config.yml` 中配置项
 
 ```yaml
 # Need to install the hexo-wordcount plugin
