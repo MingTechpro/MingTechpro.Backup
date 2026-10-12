@@ -1,0 +1,34 @@
+extends includes/layout.pug
+
+block content
+  - const noCardLayout = ['shuoshuo', '404'].includes(page.type) ? 'nc' : ''
+  - var commentsJsLoad = false
+
+  mixin commentLoad
+    if page.comments !== false && theme.comments && theme.comments.use
+      - commentsJsLoad = true
+      !=partial('includes/third-party/comments/index', {}, {cache: true})
+
+  #page(class=noCardLayout)
+
+    if page.layout === 'status'
+      link(rel="stylesheet" href=url_for('css/status.css') type="text/css")
+
+    if top_img === false && page.title
+      .page-title= page.title
+
+    .status-wrap
+      .status-wrap-title
+        i.fas.fa-chart-line
+        span= _p('aside.card_webinfo.headline')
+
+      !=partial('includes/status-info', {}, {cache: true})
+
+    if page.layout === 'status'
+      script(src=url_for('js/status.js') defer)
+
+    //- md 正文输出
+    .status-content(style="margin-top:1rem;")
+      != page.content
+
+    +commentLoad

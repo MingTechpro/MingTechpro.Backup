@@ -1,0 +1,94 @@
+//- includes/status-info.pug
+.status-grid
+  //- 运行时间
+  if theme.aside.card_webinfo.runtime_date
+    .stat-card
+      .stat-icon(style="color:#3498db")
+        i.fas.fa-clock
+      .stat-meta
+        .stat-label= `${_p('aside.card_webinfo.runtime.name')}`
+        .stat-value#status-runtimeshow(data-publishDate=date_xml(theme.aside.card_webinfo.runtime_date))
+          i.fa-solid.fa-spinner.fa-spin
+
+  //- 最后更新时间
+  .stat-card
+    .stat-icon(style="color:#95a5a6")
+      i.fas.fa-rotate
+    .stat-meta
+      .stat-label= `${_p('aside.card_webinfo.last_push_date.name')}`
+      .stat-value#status-last-push-date(data-lastPushDate=date_xml(Date.now()))
+        i.fa-solid.fa-spinner.fa-spin
+  
+  //- 文章数
+  .stat-card
+    .stat-icon(style="color:#2ecc71")
+      i.fas.fa-file-pen
+    .stat-meta
+      .stat-label= `${_p('aside.card_webinfo.article_name')}`
+      .stat-value= site.posts.length
+
+  //- 总字数（依赖 hexo-wordcount 插件）
+  if theme.wordcount.enable && theme.wordcount.total_wordcount
+    .stat-card
+      .stat-icon(style="color:#27ae60")
+        i.fas.fa-file-lines
+      .stat-meta
+        .stat-label= `${_p('aside.card_webinfo.site_wordcount')}`
+        .stat-value= totalcount(site)
+
+  //- 今日总访问量（页面级 PV）
+  if theme.busuanzi && theme.busuanzi.site_pv
+    .stat-card
+      .stat-icon(style="color:#1abc9c")
+        i.fas.fa-chart-line
+      .stat-meta
+        .stat-label= page.todayPV || 'Total visits today'
+        .stat-value#busuanzi_today_pv
+          i.fa-solid.fa-spinner.fa-spin
+
+  //- 今日总访客数（不蒜子标准 id）
+  if theme.busuanzi && theme.busuanzi.site_uv
+    .stat-card
+      .stat-icon(style="color:#e74c3c")
+        i.fas.fa-user-clock
+      .stat-meta
+        .stat-label= page.todayUV || 'Total visitors today'
+        .stat-value
+          span#busuanzi_today_uv
+            i.fa-solid.fa-spinner.fa-spin
+
+  //- 站点总访问量
+  if theme.umami_analytics.enable && theme.umami_analytics.UV_PV.site_pv
+    .stat-card
+      .stat-icon(style="color:#e67e22")
+        i.fas.fa-eye
+      .stat-meta
+        .stat-label= `${_p('aside.card_webinfo.site_pv_name')}`
+        .stat-value#umami-site-pv
+          i.fa-solid.fa-spinner.fa-spin
+  else if theme.busuanzi.site_pv
+    .stat-card
+      .stat-icon(style="color:#e67e22")
+        i.fas.fa-eye
+      .stat-meta
+        .stat-label= `${_p('aside.card_webinfo.site_pv_name')}`
+        .stat-value#busuanzi_site_pv
+          i.fa-solid.fa-spinner.fa-spin
+
+  //- 站点总访客数
+  if theme.umami_analytics.enable && theme.umami_analytics.UV_PV.site_uv
+    .stat-card
+      .stat-icon(style="color:#9b59b6")
+        i.fas.fa-users
+      .stat-meta
+        .stat-label= `${_p('aside.card_webinfo.site_uv_name')}`
+        .stat-value#umami-site-uv
+          i.fa-solid.fa-spinner.fa-spin
+  else if theme.busuanzi.site_uv
+    .stat-card
+      .stat-icon(style="color:#9b59b6")
+        i.fas.fa-users
+      .stat-meta
+        .stat-label= `${_p('aside.card_webinfo.site_uv_name')}`
+        .stat-value#busuanzi_site_uv
+          i.fa-solid.fa-spinner.fa-spin
