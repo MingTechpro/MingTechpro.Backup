@@ -3,7 +3,7 @@ title: Hexo Butterfly 引入 ECharts：添加动态数据可视化图表
 date: 2026-10-08 23:39:58
 categories: 运维笔记
 tags: [Butterfly, 数据图表]
-cover:
+cover: https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/wallpaper/20261006222403122.jpg
 description: 详解如何在 Hexo Butterfly 主题中引入 ECharts 库，通过自定义 JS 实现动态数据图表的渲染，让你的博客文章告别静态图表。
 abbrlink: 5805731a
 ---

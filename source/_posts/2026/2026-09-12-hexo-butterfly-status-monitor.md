@@ -51,7 +51,7 @@ wordcount:
   # Display the time to read the article in post meta
   min2read: true
   # Display the total word count of the website in aside's webinfo
-total_wordcount: true
+  total_wordcount: true
 ```
 
 ### 开启不蒜子统计
@@ -452,7 +452,7 @@ hexo clean; hexo server
 浏览器打开：<http://localhost:4000/status/>
 {% endnote %}
 
-![20261012211228356](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/post-img_url/20261012211228356.png)
+![预览status页面](https://cdn.jsdmirror.com/gh/MingTechpro/drawing-bed/post-img_url/20261012211228356.png)
 
 ## 总结
 
